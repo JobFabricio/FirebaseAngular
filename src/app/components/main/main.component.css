@@ -1,0 +1,124 @@
+.cartelera-container {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+ul.pelicula-list {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+li.pelicula-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px; /* Ajusta el valor del margen según tus preferencias */
+}
+
+img.pelicula-poster {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;.cartelera-container {
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 0;
+    font-size: 30px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .button-container button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .search-container {
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  ul.pelicula-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  li.pelicula-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; /* Ajusta el valor del margen según tus preferencias */
+  }
+
+  img.pelicula-poster {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  p.pelicula-title {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  p.pelicula-description {
+    font-size: 16px; /* Ajusta el tamaño de fuente según tus preferencias */
+  }
+
+}
+
+p.pelicula-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+p.pelicula-description {
+  font-size: 16px; /* Ajusta el tamaño de fuente según tus preferencias */
+}

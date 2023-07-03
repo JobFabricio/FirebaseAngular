@@ -1,0 +1,18 @@
+<div class="cartelera-container">
+  <h1>Cartelera de películas</h1>
+  <div class="search-container">
+    <input type="text" [(ngModel)]="searchTerm" placeholder="Buscar películas">
+    <button class="btn-buscar" (click)="search()">Buscar</button>
+  </div>
+  <div class="button-container">
+    <button class="btn-favoritos" (click)="goToFavorites()">Favoritos</button>
+    <button class="btn-historial">Historial</button>
+  </div>
+  <ul class="pelicula-list">
+    <li *ngFor="let pelicula of cartelera" class="pelicula-item">
+      <img [src]="getImagenUrl(pelicula.poster_path)" alt="Portada de {{ pelicula.title }}" class="pelicula-poster">
+      <p class="pelicula-title">{{ pelicula.title }}</p>
+      <p class="pelicula-description">{{ pelicula.description }}</p>
+    </li>
+  </ul>
+</div>
